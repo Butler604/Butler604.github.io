@@ -39,10 +39,13 @@ $(function () {
     //////////ONLY CHANGE BELOW THIS POINT///////////
     /////////////////////////////////////////////////
 
-    // TODO 1
-    // Create platforms
-    // You must decide the x position, y position, width, and height of the platforms
-    // example usage: createPlatform(x,y,width,height)
+    
+    createPlatform(400, 500, 300, 20);
+    createPlatform(0, 300, 250, 10); 
+    createPlatform(0, 600, 250, 250);
+    createPlatform(200, 700, 250, 100);
+    createPlatform(900, 400, 200, 20);
+    createCollectable("Cam", 800, 300);
 
 
 
