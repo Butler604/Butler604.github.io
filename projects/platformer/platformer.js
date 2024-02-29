@@ -45,7 +45,7 @@ $(function () {
     createPlatform(0, 600, 250, 250);
     createPlatform(200, 700, 250, 100);
     createPlatform(900, 400, 200, 20);
-    createCollectable("Cam", 800, 300);
+    //createCollectable("Cam", 800, 300);
 
 
 
